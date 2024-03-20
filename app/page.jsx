@@ -1,8 +1,13 @@
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+
 const HomePage = () => {
 	return (
-		<div>
-			<h1 className="text-violet-800">Hello Next js</h1>
-		</div>
+		<>
+			<Hero />
+			<InfoBoxes />
+		</>
 	);
 };
 export default HomePage;
